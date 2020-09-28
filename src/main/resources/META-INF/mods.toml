@@ -1,36 +1,35 @@
 modLoader="javafml"
 loaderVersion="[34,)"
-
 license="MIT License"
 issueTrackerURL="http://my.issue.tracker/"
 
 [[mods]]
-modId="examplemod"
-version="${file.jarVersion}"
+modId="ccshark"
+version="1.0"
 displayName="Crispy Crispy Sandshark"
 #updateJSONURL="http://myurl.me/"
 #displayURL="http://example.com/"
-#logoFile="examplemod.png"
+#logoFile="ccshark.png"
 credits="CCS_Covenant"
-authors="Lucun_Ji"
+authors="LucunJi"
 description='''
 What is a shark? A sand fish!
 
-And you can even bake it for a crispy taste!
+Craft it, bake it, and then eat it!
 '''
 
-#[[dependencies.examplemod]]
+#[[dependencies.ccshark]]
     # the modid of the dependency
-    modId="forge" #mandatory
+    #modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=true #mandatory
+    #mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[34,)" #mandatory
+    #versionRange="[34,)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
-    ordering="NONE"
+    #ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
-    side="BOTH"
-[[dependencies.examplemod]]
+    #side="BOTH"
+[[dependencies.ccshark]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.3]"

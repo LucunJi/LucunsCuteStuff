@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=south": {
       "model": "ccshark:block/sand_shark"
+    },
+    "facing=west": {
+      "model": "ccshark:block/sand_shark",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "ccshark:block/sand_shark",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ccshark:block/sand_shark",
+      "y": 270
     }
   }
 }

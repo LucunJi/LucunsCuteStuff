@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sand"
+    },
+    "X": {
+      "tag": "minecraft:fishes"
+    }
+  },
+  "result": {
+    "item": "ccshark:sand_shark"
+  }
+}
